@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { PasseiosComponent } from "./pages/passeios/passeios.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, PasseiosComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
